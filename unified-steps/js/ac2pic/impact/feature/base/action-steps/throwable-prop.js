@@ -1,4 +1,4 @@
-ig.module("bakafish.impact.feature.base.action-steps.throwable-prop").requires("impact.feature.base.action-steps").defines(function() {
+ig.module("ac2pic.impact.feature.base.action-steps.throwable-prop").requires("impact.feature.base.action-steps").defines(function() {
     ig.ACTION_STEP.THROW_MOVABLE_PROP = ig.ActionStepBase.extend({
         init: function(details) {
             this.propName = details.propName;

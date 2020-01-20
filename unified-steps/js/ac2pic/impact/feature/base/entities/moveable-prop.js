@@ -1,4 +1,4 @@
-ig.module("bakafish.impact.feature.base.entities.moveable-prop").requires("impact.base.actor-entity").defines(function() {
+ig.module("ac2pic.impact.feature.base.entities.moveable-prop").requires("impact.base.actor-entity").defines(function() {
     ig.ENTITY.MovableProp = ig.AnimatedEntity.extend({
         propSheet: null,
         onGround: false,

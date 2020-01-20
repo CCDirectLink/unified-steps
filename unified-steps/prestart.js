@@ -1,6 +1,6 @@
 import "./js/ac2pic/feature/base/entities/map-touch-trigger.js";
 
-import "./js/ac2pic/feature/bee/base/event-steps.js";
+import "./js/ac2pic/feature/base/event-steps.js";
 
 import "./js/ac2pic/feature/menu/gui/save/save-misc.js";
 
@@ -10,13 +10,13 @@ import "./js/ac2pic/impact/feature/base/action-steps/throwable-prop.js";
 
 import "./js/ac2pic/impact/feature/base/entities/moveable-prop.js";
 
-import "./js/bakafish/feature/bee/combat/model/combat-condition-injection.js";
+import "./js/bakafish/feature/combat/model/combat-condition-injection.js";
 
-import "./js/bakafish/feature/bee/combat/new-buffs.js";
+import "./js/bakafish/feature/combat/new-buffs.js";
 
-import "./js/bakafish/feature/bee/combat/proxy-hp-access.js";
+import "./js/bakafish/feature/combat/proxy-hp-access.js";
 
-import "./js/bakafish/feature/bee/player/item-consumption-injection.js";
+import "./js/bakafish/feature/player/item-consumption-injection.js";
 
 import "./js/bakafish/impact/feature/base/action-steps/circle-attack.js";
 

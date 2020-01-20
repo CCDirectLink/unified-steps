@@ -1,4 +1,4 @@
-ig.module("bakafish.feature.bee.player.item-consumption-injection").requires("game.feature.player.item-consumption").defines(function() {
+ig.module("bakafish.feature.player.item-consumption-injection").requires("game.feature.player.item-consumption").defines(function() {
     sc.ItemConsumption.inject({
         createAction: function(b) {
             sc.model.player.params.getModifier("ITEM_GUARD") && b.unshift({

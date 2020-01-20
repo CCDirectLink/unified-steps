@@ -1,4 +1,4 @@
-ig.module("bakafish.feature.bee.combat.new-buffs").requires("game.feature.combat.stat-change", "game.feature.combat.model.combat-params").defines(function() {
+ig.module("bakafish.feature.combat.new-buffs").requires("game.feature.combat.stat-change", "game.feature.combat.model.combat-params").defines(function() {
 
     sc.STAT_CHANGE_SETTINGS["DEFENSE-MINUS-MINOR-1"] = {
         change: sc.STAT_CHANGE_TYPE.STATS,

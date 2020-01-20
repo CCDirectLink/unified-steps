@@ -1,4 +1,4 @@
-ig.module("bakafish.feature.bee.combat.proxy-hp-access").requires("game.feature.combat.entities.combat-proxy").defines(function() {
+ig.module("bakafish.feature.combat.proxy-hp-access").requires("game.feature.combat.entities.combat-proxy").defines(function() {
     var b = Vec3.create(),
         a = {
             ACTION_END_DESTROYED: 1,

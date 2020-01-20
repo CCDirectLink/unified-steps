@@ -1,4 +1,4 @@
-ig.module("bakafish.feature.bee.combat.model.combat-condition-injection").requires("game.feature.combat.model.combat-condition")
+ig.module("bakafish.feature.combat.model.combat-condition-injection").requires("game.feature.combat.model.combat-condition")
     .defines(function() {
 
         sc.CombatConditions.prototype.checkOr = function(a, b, c, d) {

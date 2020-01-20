@@ -1,0 +1,30 @@
+{
+  "name": "unified-steps",
+  "version": "1.0.0",
+  "description": "Just so everyone can use all the cool new action/event/whatever steps made",
+  "main": "index.js",
+  "scripts": {
+    "gen:prestart": "node scripts/generate-prestart.js",
+    "format": "npm run minify-json && npm run json-beautify && npm run js-beautify",
+    "minify-json": "minify-json ./beta-bee/",
+    "js-beautify": "js-beautify -js -q -r -f ./beta-bee/**/*.js",
+    "json-beautify": "js-beautify -js -r -f ./beta-bee/**/*.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCDirectLink/unified-steps.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CCDirectLink/unified-steps/issues"
+  },
+  "homepage": "https://github.com/CCDirectLink/unified-steps#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "minify-json": "^1.0.0"
+  },
+  "dependencies": {
+    "js-beautify": "^1.10.2"
+  }
+}

@@ -1,4 +1,6 @@
 {
 	"name": "unified-steps",
-	"version": "0.1.0"
+	"version": "0.1.0",
+	"prestart": "prestart.js",
+	"module": true
 }
